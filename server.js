@@ -40,25 +40,25 @@ const news = [
   {
     id: uuid.v4(),
     title: faker.lorem.words(),
-    image: 'https://placeimg.com/640/480/nature',
+    image: faker.image.url(),
     content: faker.lorem.paragraph(),
   },
   {
     id: uuid.v4(),
     title: faker.lorem.words(),
-    image: 'https://placeimg.com/640/480/arch',
+    image: faker.image.url(),
     content: faker.lorem.paragraph(),
   },
   {
     id: uuid.v4(),
     title: faker.lorem.words(),
-    image: 'https://placeimg.com/640/480/tech',
+    image: faker.image.url(),
     content: faker.lorem.paragraph(),
   },
   {
     id: uuid.v4(),
     title: faker.lorem.words(),
-    image: 'https://placeimg.com/640/480/sepia',
+    image: faker.image.url(),
     content: faker.lorem.paragraph(),
   },
 ];
