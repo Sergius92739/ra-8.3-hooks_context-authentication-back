@@ -40,25 +40,25 @@ const news = [
   {
     id: uuid.v4(),
     title: faker.lorem.words(),
-    image: faker.image.url(),
+    image: 'https://loremflickr.com/640/480?lock=1234',
     content: faker.lorem.paragraph(),
   },
   {
     id: uuid.v4(),
     title: faker.lorem.words(),
-    image: faker.image.url(),
+    image: 'https://loremflickr.com/640/480?lock=1235',
     content: faker.lorem.paragraph(),
   },
   {
     id: uuid.v4(),
     title: faker.lorem.words(),
-    image: faker.image.url(),
+    image: 'https://loremflickr.com/640/480?lock=1236',
     content: faker.lorem.paragraph(),
   },
   {
     id: uuid.v4(),
     title: faker.lorem.words(),
-    image: faker.image.url(),
+    image: 'https://loremflickr.com/640/480?lock=1237',
     content: faker.lorem.paragraph(),
   },
 ];
